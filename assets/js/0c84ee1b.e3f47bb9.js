@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkit_site=self.webpackChunkkit_site||[]).push([[2672],{2608:s=>{s.exports=JSON.parse('{"label":"hola","permalink":"/kit-site/blog/tags/hola","allTagsPath":"/kit-site/blog/tags","count":1,"unlisted":false}')}}]);

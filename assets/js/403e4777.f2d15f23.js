@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkit_site=self.webpackChunkkit_site||[]).push([[4196],{5920:t=>{t.exports=JSON.parse('{"permalink":"/kit-site/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
