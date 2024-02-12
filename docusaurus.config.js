@@ -8,20 +8,21 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'KIT Site',
+  tagline: 'Best or the Nothing',
+  favicon: 'img/MB_logo.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/kit-site/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'SujitMBRDI', // Usually your GitHub org/user name.
+  projectName: 'kit-site', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -32,6 +33,10 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+  },
+
+  markdown: {
+    mermaid: true,
   },
 
   presets: [
@@ -60,16 +65,18 @@ const config = {
     ],
   ],
 
+  themes : ["@docusaurus/theme-mermaid"],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'KIT Site',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'KIT Site Logo',
+          src: 'img/MB_logo.png',
         },
         items: [
           {
@@ -80,7 +87,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/SujitMBRDI/kit-site',
             label: 'GitHub',
             position: 'right',
           },
@@ -124,12 +131,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/SujitMBRDI/kit-site',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My KIT Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
